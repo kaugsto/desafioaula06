@@ -1,0 +1,42 @@
+
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    margin: 20px auto;
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header{
+    background-color: lightblue;
+    padding: 40px;
+    /* justify-content: center;Centraliza horizontalmente o que está dentro */
+    
+    
+}
+h1{
+    text-align: center; /*Centraliza a própria tag*/
+    font-family: Verdana;
+    font-size: 24pt;
+    color: darkblue;
+}
+.divProduto{
+    width: 23%;
+    background-color: white;
+    box-shadow: 0px 0px 10px silver;
+    margin: 10px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.imgProduto{
+    width: 100%;
+    height: auto;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
